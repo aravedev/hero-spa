@@ -5,7 +5,7 @@ export const LoginPages = () => {
   const login = useNavigate();
 
   const onLogin = () => {
-    login("marvel", { replace: true });
+    login("/marvel", { replace: true });
   };
 
   return (
